@@ -2,7 +2,6 @@
 
 ### Exercise 1: Basic Static Routing
 Create a Next.js application with three static pages:
-- Home page (`/`)
 - About page (`/about`)
 - Contact page (`/contact`)
 
