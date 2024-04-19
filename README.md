@@ -28,7 +28,3 @@ Add a search page at `/search` that includes a form where users can enter a sear
 **Objective:**
 - Implement programmatic navigation using Next.js hooks.
 - Utilize the `useNavigation` hook to push a new URL to the router.
-
-**Objective:**
-- Use catch-all routes to handle arbitrary paths.
-- Simulate fetching document content based on the pathname.
