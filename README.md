@@ -6,7 +6,7 @@ Create a Next.js application with three static pages:
 - Contact page (`/contact`)
 
 **Objective:**
-- Understand how to set up basic static routes using the `pages` directory in Next.js.
+- Understand how to set up basic static routes using the `app` directory in Next.js.
 
 ### Exercise 2: Dynamic Routing
 Extend your application to include dynamic routing by adding a user profile page. Each user profile should be accessed via a URL pattern like `/users/[id]`, where `[id]` is the user ID.
