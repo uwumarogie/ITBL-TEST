@@ -4,13 +4,12 @@
 
 Create a Next.js application with three static pages:
 
-- Home page (`/`)
 - About page (`/about`)
 - Contact page (`/contact`)
 
 **Objective:**
 
-- Understand how to set up basic static routes using the `pages` directory in Next.js.
+- Understand how to set up basic static routes using the `app` directory in Next.js.
 
 ### Exercise 2: Dynamic Routing
 
@@ -38,12 +37,3 @@ Add a search page at `/search` that includes a form where users can enter a sear
 
 - Implement programmatic navigation using Next.js hooks.
 - Utilize the `useRouter` hook to push a new URL to the router.
-
-### Exercise 5: Catch-all Routes
-
-Implement a catch-all route for handling documentation pages under `/docs`. For instance, accessing `/docs/setup/installation` should load a documentation component capable of fetching content based on the path.
-
-**Objective:**
-
-- Use catch-all routes to handle arbitrary paths.
-- Simulate fetching document content based on the pathname.
