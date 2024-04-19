@@ -1,6 +1,7 @@
-import { useRouter } from 'next/router';
+'use client'
+
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import '../app/globals.css';
 
 const Search = () => {
     const [term, setTerm] = useState('')

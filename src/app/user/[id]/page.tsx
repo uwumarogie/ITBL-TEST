@@ -1,7 +1,5 @@
-import { useRouter } from 'next/router';
+import { useSearchParams } from 'next/navigation';
 import { NextPage } from 'next';
-import '../../app/globals.css';
-
 
 interface UserProfile {
   id: string;
@@ -9,8 +7,8 @@ interface UserProfile {
 }
 
 const UserProfile: NextPage = () => {
-  const router = useRouter();
-  const { id } = router.query;
+  const params = useSearchParams();
+  const id = params.get('id');
 
   const userData: UserProfile = fetchUserData(id as string)
 
