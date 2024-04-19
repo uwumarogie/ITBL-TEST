@@ -28,10 +28,7 @@ Add a search page at `/search` that includes a form where users can enter a sear
 
 **Objective:**
 - Implement programmatic navigation using Next.js hooks.
-- Utilize the `useRouter` hook to push a new URL to the router.
-
-### Exercise 5: Catch-all Routes
-Implement a catch-all route for handling documentation pages under `/docs`. For instance, accessing `/docs/setup/installation` should load a documentation component capable of fetching content based on the path.
+- Utilize the `useNavigation` hook to push a new URL to the router.
 
 **Objective:**
 - Use catch-all routes to handle arbitrary paths.
